@@ -6,3 +6,5 @@ Implemented features:
 * Grid-based point-and-click movement using [EasyStar](https://www.easystarjs.com/) pathfinding library
 * Tile-based maps using [Tiled](https://www.mapeditor.org) for an editor
 * Basic GUI and an unfinished dialog system
+
+[![Screenshot](screenshot.jpg)](screenshot.jpg)
