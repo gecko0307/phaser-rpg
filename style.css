@@ -1,0 +1,147 @@
+body {
+    background-color: #212121;
+    padding: 0;
+    margin: 0;
+}
+
+div, img {
+    position: absolute;
+    box-sizing: border-box;
+}
+
+#game_container {
+    width: 1024px;
+    height: 768px;
+    left: -100%;
+    right: -100%;
+    margin-left: auto;
+    margin-right: auto;
+    top: -100%;
+    bottom: -100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #514939;
+    overflow: hidden;
+    border: 1px solid #877062;
+    border-radius: 7px;
+    
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#canvas_container {
+    width: 800px;
+    height: 600px;
+    left: 0;
+    top: 100px;
+}
+
+#hud_container {
+    width: 800px;
+    height: 100px;
+    bottom: 0;
+    top: auto;
+}
+
+#hud {
+    left: -100%;
+    right: -100%;
+    margin-left: auto;
+    margin-right: auto;
+    top: -16;
+}
+
+#bar {
+    width: 600px;
+    height: 25px;
+    top: 21px;
+    left: -100%;
+    right: -100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2d2d2d;
+}
+
+#hp_bar {
+    width: 270px;
+    height: 25px;
+    background-color: #ff0000;
+    top: 0;
+    left: 0;
+    transform-origin: 100% 50%;
+}
+
+#mp_bar {
+    width: 270px;
+    height: 25px;
+    background-color: #006aa3;
+    top: 0;
+    left: auto;
+    right: 0;
+    transform-origin: 0% 50%;
+}
+
+#xp_bar {
+    width: 80px;
+    height: 80px;
+    left: -100%;
+    right: -100%;
+    margin-left: auto;
+    margin-right: auto;
+    top: -5px;
+    transform: rotate(-90deg);
+}
+
+#player_level {
+    left: -100%;
+    right: -100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 20px;
+    color: #ffff00;
+    text-align: center;
+    top: 26px;
+    font-weight: bold;
+}
+
+
+#dialog_container {
+    width: 600px;
+    height: 400px;
+    
+    left: 100px;
+    top: 200px;
+    
+    background-color: #000000;
+    visibility: hidden;
+    
+    border: 1px solid #877062;
+    border-radius: 7px;
+}
+
+#dialog_message {
+    width: 750px;
+    height: 300px;
+    left: 50px;
+    top: 20px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+
+#right_container {
+    width: 224px;
+    height: 100%;
+    left: auto;
+    right: 0;
+    top: 0;
+}
+
+#player_xp {
+    left: 40px;
+    width: 100%;
+    height: 20px;
+    color: #ffff00;
+    top: 35px;
+    font-weight: bold;
+}

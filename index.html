@@ -1,0 +1,47 @@
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="Keywords" content=""/>
+    <meta name="Description" content="Game"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+
+    <title>Game</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="circle.css">
+  </head>
+  <body>
+    <div id="game_container">
+        <img src="data/ui/background.jpg">
+        <div id="canvas_container"></div>
+        
+        <div id="dialog_container">
+            <div id="dialog_message">Test message</div>
+        </div>
+        
+        <div id="hud_container">
+            <div id="bar">
+                <div id="hp_bar"></div>
+                <div id="mp_bar"></div>
+            </div>
+            <div id="xp_bar">
+                <svg width="80" height="80" viewBox="0 0 80 80">
+                    <circle cx="40" cy="40" r="25" fill="none" stroke="#2d2d2d" stroke-width="10" />
+                    <circle id="xp_bar_progress" cx="40" cy="40" r="25" fill="none" stroke="#ffff00" stroke-width="10"/>
+                </svg>
+            </div>
+            <img id="hud" src="data/ui/hud.png">
+            <div id="player_level">1</div>
+        </div>
+        
+        <div id="right_container">
+            <div id="player_xp">0</div>
+        </div>
+    </div>
+    <script src="js/libs/phaser.min.js"></script>
+    <script src="js/libs/easystar-0.4.3.min.js"></script>
+    <script src="js/libs/greensock-1.20.4/TweenMax.min.js"></script>
+    <script src="js/game.js"></script>
+  </body>
+</html>
+
